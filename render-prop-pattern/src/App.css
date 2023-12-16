@@ -22,4 +22,15 @@ input {
   margin: 5px;
   padding: 1em;
   font-family: "Avenir Next";
+  outline: none;
+  border: 2px solid pink;
+  border-radius: 15px;
+}
+
+.temp {
+  padding: 1rem;
+  background-color: green;
+  width: 25%;
+  margin: 0.5em;
+  border-radius: 15px;
 }
