@@ -1,0 +1,25 @@
+html,
+body {
+  text-align: center;
+  background-color: #1e2027;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  margin-top: -4em;
+}
+
+.App {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  font-size: 40px;
+  margin: 5px;
+  padding: 1em;
+  font-family: "Avenir Next";
+}
