@@ -5,14 +5,14 @@ function App() {
   return (
     <div className="App">
       <h1>☃️ Temperature Converter 🌞</h1>
-      <Input
-        render={(data) => (
+      <Input>
+        {(data) => (
           <>
             <Kelvin data={data} />
             <Fahrenheit data={data} />
           </>
         )}
-      />
+      </Input>
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default function Input(props) {
         placeholder="Temp in °C"
         onChange={(e) => setData(e.target.value)}
       />
-      {props.render(data)}
+      {props.children(data)}
     </>
   );
 }
