@@ -6,6 +6,7 @@ export default function Input(props) {
   return (
     <>
       <input
+        type="text"
         placeholder="Temp in °C"
         value={data}
         oonChange={(e) => setData(e.target.value)}
